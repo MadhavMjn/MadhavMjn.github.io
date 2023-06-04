@@ -1,0 +1,97 @@
+/* .navbar-toggler{
+    position:absolute;
+    right: 40px;
+} */
+/* body{
+    margin: 0;
+} */
+/* .navbr{
+    width: 100%;
+    height: 100px;
+    /* background-color: black; */
+    /* border: 5px solid black;
+} */
+/* .nam{
+    font-size: 4em;
+    padding: 5px;
+} * */
+.navbar-brand{
+
+    padding: 5px;
+    font-weight: bolder;
+
+}
+.ourmenu{
+    font-size: 2em;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+.menutxt{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.5em;
+
+}
+.dishes{
+    float: left;
+}
+.container-fluid{
+    margin-bottom: 5px;
+}
+@media (min-width:575px){
+    .navbar-toggler{
+        visibility:hidden;
+    }
+    .container-fluid{
+        height: 85px;
+
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+    .abc{
+        text-align: center;
+        align-items: center;
+    }
+    
+    /* .dish2, .dish3{
+        visibility: hidden;
+    } */
+}
+/* @media (max-width:) */
+@media (max-width:325px){
+    .navbar-toggler{
+        visibility:hidden;
+    }
+    .container-fluid{
+        height: 85px;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+}
+/* @media (max-width:575px){
+    .dish2, .dish3{
+        visibility: hidden;
+    }
+} */
+.dishes{
+    border: 4px solid brown;
+    box-sizing: border-box;
+    height: 300px;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dishname1,.dishname2,.dishname3{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.txtx{
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
